@@ -20,6 +20,12 @@ then
     exit 1
 fi
 
+if [[ -z $PEPPER_IP ]]
+then
+    echo "Unset environment variable PEPPER_IP"
+    exit 1
+fi
+
 action=$1
 project=$2
 nao_project_dir="$nao_projects_dir/$project"
