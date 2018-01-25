@@ -1,0 +1,5 @@
+# Template with the environment variables that Salt needs
+export PATH=/home/auser/Salt:$PATH
+export PEPPER_IP=192.168.1.20
+export PEPPER_PORT=9559
+export PEPPER_LOCAL_PROJECTS_DIR=/home/auser/projects
